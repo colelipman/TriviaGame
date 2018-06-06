@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>NBA TRIVIA GAME</title>
+    
+	<!-- CSS Files -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header id="masthead">
+		<div class="container">
+			<h1>NBA TRIVIA GAME</h1>
+		</div>
+    </header>
+    
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1 class="rules">The Rules of the Game</h1>
+			<p class="rules">You have 45 seconds to answer 5 questions</p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+            
+			<!-- Q1 -->
+			<p class="question">[1] The pass before a player scores is called an assist</p>
+			<ul class="answers">
+            <input type="radio">True</label>
+            <br/>
+            <input type="radio">False</label>
+            <br/>
+            </ul>
+            
+			<!-- Q2 -->
+			<p class="question">[2] The MVP of last season was Shaquille O'Neal</p>
+			<ul class="answers">
+			<input type="radio">True</label><br/>
+			<input type="radio">False</label><br/>
+            </ul>
+            
+			<!-- Q3 -->
+			<p class="question">[3] You are allowed to take 3 steps without dribbling</p>
+			<ul class="answers">
+			<input type="radio">True</label><br/>
+			<input type="radio">False</label><br/>
+            </ul>
+            
+			<!-- Q4 -->
+			<p class="question">[4] The Oklahoma City Thunder were formally know as the Seattle SuperSonics</p>
+			<ul class="answers">
+			<input type="radio">True</label><br/>
+			<input type="radio">False</label><br/>
+            </ul>
+            
+			<!-- Q5 -->
+			<p class="question">[5] The Toronto Raptors are the only Canadian NBA team</p>
+			<ul class="answers">
+			<input type="radio">True</label><br/>
+			<input type="radio">False</label><br/>
+			</ul>
+            
+			<!-- Submit Button -->
+            <button type="button" id="submit">Submit Final Answers</button>
+            
+			<!-- Results -->
+			<div id="results">
+            <h3> Answer Key </h3>
+            <p> [1] True </p>
+            <p> [2] False </p>
+            <p> [3] False </p>
+            <p> [4] True </p>
+            <p> [5] True </p>
+            </div>
+            
+            <!-- Play Again Button -->
+			<button type="button" id="restart">Play Again</button>
+		</section>
+	</div>
+	
+	<!-- JavaScript Stuff -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script> 
+	
+</body>
+</html>
